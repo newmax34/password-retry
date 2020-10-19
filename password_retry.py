@@ -1,7 +1,7 @@
 
 i = 3
 password = 'a123456'
-while True: 
+while i > 0: 
     answer = input ('please enter password: ')
     if password == answer: 
         print('Correct. Now you can access.')
@@ -9,5 +9,4 @@ while True:
     else:
         i = i - 1
         print ('Incorrect! You have', i, 'chance(s)')
-        if i == 0:
-            break
+
